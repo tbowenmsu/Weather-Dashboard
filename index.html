@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <link rel="stylesheet" href="./assets/css/style.css" /> 
+    <link rel="stylesheet" href="./assets/css/jass.css">
+  </head>
+
+  <body>
+    <header class="container-fluid text-center text-white p-2 weather-header" id="header">Weather Dashboard</header>
+ 
+    <div class="container-fluid" style="max-width: 1400px">
+        <div class="row">
+            <aside class="col-4 float-left">
+                <nav class="navbar navbar-light bg-light shadow-lg p-3 mb-5 bg-white rounded">
+                    <h2 id="form-heading" class="mt-1 h3 form-label">Search for a City:</h2>
+                    <form class="form" id="search-form">
+                        <div class="form-inline form-group"> 
+                        <input id="city-input" class="form-control mr-sm-2" type="search" placeholder="Search"
+                            aria-label="Search">
+                        <button id="select-city" class="btn btn-primary my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                    <form id="searchhistory" class="mt-1">
+
+                    </form>
+                </nav>
+            </aside>
+            <div class="col-lg-9 pb-3 float-right">
+                <div class="card bg-light text-dark p-2 rem shadow-lg p-3 mb-5 bg-white rounded"
+                    style="width: 710; height: 19rem;">
+                    <div id="current"></div>
+
+                    <div id="uvl-display"></div>
+                </div>
+                <br>
+                <h2 class="forecast">5-Day Forecast:</h2>
+                <section id="forecast" class="row mt-3"></section>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="./assets/js/script.js"></script>
+  </body>
+  
+</html>
