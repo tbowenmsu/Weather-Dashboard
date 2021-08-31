@@ -2,8 +2,8 @@
 
 Project By: Taylor Bowen<br>
 GitHub Profile:  <https://github.com/tbowenmsu><br>
-Project GitHub Repository: <br>
-Project URL: <br>
+Project GitHub Repository: <https://github.com/tbowenmsu/Weather-Dashboard> <br>
+Project URL: <https://tbowenmsu.github.io/Weather-Dashboard/><br>
 
 ## Project Description
 This page allows a traveler to look at the local weather for a chosen city. They can use the search bar to search for a certain city. They will be presented with the current weather and also, below that, a five day outlook forecast.
